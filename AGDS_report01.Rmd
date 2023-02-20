@@ -1,0 +1,19 @@
+---
+title: "AGDS01"
+author: "Haokun_Liu"
+date: "2023-02-20"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+
+sum <- 0
+for (i in 1:100){
+  sum <- sum + i # for-loop iterating from 1 to 100 
+}
+print(sum)
+```
